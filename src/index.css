@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Montserrat", system-ui, sans-serif;
+  
+  --color-gold-500: #D4B26F; /* Majestic soft gold */
+  --color-gold-600: #B89352; /* Burnished rich gold */
+  --color-gold-dark: #8E7044; /* Antique metallic bronze */
+  --color-lux-gold: #D4B26F;
+  --color-lux-bronze: #8E7044;
+  --color-lux-black: #080809;
+  --color-lux-charcoal: #121214;
+  --color-lux-ivory: #FDFBF7;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #080809;
+  }
+  
+  /* Custom elegant scrollbar for luxury golden theme */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #080809;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1C1B19;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D4B26F;
+  }
+}
+

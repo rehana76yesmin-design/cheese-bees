@@ -1,0 +1,6 @@
+{
+  "name": "Horais Dine",
+  "description": "Luxury on Top - Elevated dining experiences and artisanal platters in the heart of Dhaka.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
